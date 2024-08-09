@@ -12,7 +12,7 @@ export default function Home() {
   const[mode,setmode]=React.useState(false)
   return (
     
-      <div className={`flex gap-12 -mt-10 ${mode?"bg-black":" " }`}>
+      <div className={`flex gap-12 -mt-5 ml-10 ${mode?"bg-black":" " }`}>
        <div className="flex gap-4 float-right bg-blue-600 rounded-lg p-4 ">
         <Link href={'/About'} className="hover:bg-slate-400 p-2 rounded-lg">About</Link>
         <Link href={'/Projects'} className="hover:bg-slate-400 p-2 rounded-lg">Projects</Link>
