@@ -11,10 +11,8 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   const[mode,setmode]=React.useState(false)
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between mt-0 p-24 ${inter.className} ${mode?"bg-black":" "}`}
-    >
-      <div className="flex gap-12">
+    
+      <div className={`flex gap-12 -mt-20 ${mode?"bg-black":" " }`}>
        <div className="flex gap-4 float-right bg-blue-600 rounded-lg p-4 ">
         <Link href={'/About'} className="hover:bg-slate-400 p-2 rounded-lg">About</Link>
         <Link href={'/Projects'} className="hover:bg-slate-400 p-2 rounded-lg">Projects</Link>
@@ -33,6 +31,6 @@ export default function Home() {
            
           
           
-    </main>
+    
   );
 }
