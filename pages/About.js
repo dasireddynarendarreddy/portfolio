@@ -13,7 +13,7 @@ const About= () => {
       
     >
       <div className='flex gap-2 bg-yellow-500 w-fit rounded-lg p-2'>
-      <div className='font-bold w-fit rounded-lg float-start hover:scale-y-150'>
+      <div className='font-bold w-fit rounded-lg float-start'>
         Hello EveryOne
 
       </div>
