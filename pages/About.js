@@ -30,7 +30,7 @@ const About= () => {
     style={{ padding: '20px', textAlign: 'center' }}
     
   >
-       <div className="animate__heartBeat text-base sm:text-sm md:text-md lg:text-lg xl:text-5xl xl:font-bold text-sky">
+       <div className="animate__heartBeat text-base sm:text-sm md:text-lg lg:text-lg xl:text-5xl xl:font-bold text-sky">
        Hi, I’m Narendar, a recent B.Tech graduate specializing in Computer Science.
        I graduated with a Bachelor’s degree from Anurag College in 2024 june.
        </div>
