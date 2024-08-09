@@ -12,7 +12,7 @@ export default function Home() {
   const[mode,setmode]=React.useState(false)
   return (
     <main
-    className={`flex min-h-screen flex-col items-center justify-between  p-24 ${inter.className} ${mode?"bg-black":" " }` }
+    className={`flex min-h-screen flex-col items-center justify-between   ${inter.className} ${mode?"bg-black":" " }` }
   >
       <div className={`flex gap-12 mt-0 ml-10`}>
        <div className="flex gap-4 float-right bg-blue-600 rounded-lg p-4 ">
