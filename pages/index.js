@@ -14,7 +14,7 @@ export default function Home() {
     <main
     className={`flex min-h-screen flex-col items-center justify-between   ${inter.className} ${mode?"bg-black":" " }` }
   >
-      <div className={`flex gap-4 -mt-2 ml-10`}>
+      <div className={`flex gap-4 -mt-1 ml-1`}>
        <div className="flex gap-4 float-right bg-blue-600 rounded-lg p-4 ">
         <Link href={'/About'} className="hover:bg-slate-400 p-2 rounded-lg">About</Link>
         <Link href={'/Projects'} className="hover:bg-slate-400 p-2 rounded-lg">Projects</Link>
