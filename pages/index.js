@@ -14,12 +14,12 @@ export default function Home() {
     <main
     className={`flex min-h-screen flex-col items-center   ${inter.className} ${mode?"bg-black":" " }` }
   >
-      <div className={`flex gap-4  ml-1`}>
+      <div className={`flex gap-4  ml-2`}>
        <div className="flex gap-4 float-right bg-blue-600 p-4 rounded-md">
         <Link href={'/About'} className="hover:bg-slate-400 p-1 rounded-lg">About</Link>
         <Link href={'/Projects'} className="hover:bg-slate-400 p-1 rounded-lg">Projects</Link>
         <Link href={'/Contact'} className="hover:bg-slate-400 p-1 rounded-lg">contact</Link>
-      </div>
+        </div>
       <Box sx={{ '& > :not(style)': { m: 1 } }}>
       
       <Fab color="secondary" aria-label="edit">
@@ -28,6 +28,7 @@ export default function Home() {
       
       
     </Box>
+    
     </div>
   </main>
            
